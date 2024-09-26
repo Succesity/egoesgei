@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<style>
+    * {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin:0 ;
+        padding: 0;
+    }
+
+    body {
+        background: url('https://files.catbox.moe/tdfv0e.jpg');
+
+    }
+
+    /*margen automatico para contenedores header, main y footer*/
+    header, .main, footer {
+        width: 90%;
+        margin: 20px auto;
+        justify-content: center;
+    }
+
+    /*imagen de fondo de bloque header*/
+    header {
+        background: url('https://files.catbox.moe/ga4m9t.jpg');
+        background-position-y: -100px;
+        background-position-x: center;
+    }
+
+    /*formato de wallpaper*/
+    header .wallpaper {
+        padding: 0px;
+        height: 300px;
+    }
+
+    /*Titulo dentro del wallpaper*/
+
+    header .wallpaper .main_title {
+        color: rgb(255, 255, 255);
+        padding: 80px;
+        font-size: 20px;
+
+        position: relative;
+        top: 100px;
+    }
+
+    /*barra de navegacion*/
+    header nav {
+        background:grey;
+        overflow:hidden;
+        font-size: 20px;
+    }
+
+    header nav ul {
+        list-style: none;
+    }
+
+    header nav ul li {
+        float:left;
+        padding: 10px 30px;
+    }
+
+    header nav ul li:hover {
+        background: lightgray;
+
+    } 
+
+
+    /*imagen estatica global*/
+
+    .static_image {
+        width: 190px;
+        height: 210px;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+    }
+
+    /* organizacion general de elementos dentro de main*/
+
+    .main {
+        display:flex;
+        column-gap: 20px;
+        justify-content: center;
+        font-size: 14px;
+    }
+
+
+    .main h1, .main h2, .main h3, .main h4, .main h5, .main h6, .main p {
+        margin: 10px auto;
+    }
+
+    /*formato: lista de galeria 1*/
+
+    .gallery1 {
+        text-align: center;
+    }
+
+    .gallery1 li {
+        display: inline-block;
+    }
+
+    .gallery1 img {
+        width: 160px;
+    }
+
+    /* elementos individuales de articles/main */
+
+    .main .izq {
+        width: 500px;
+        padding: 20px 20px;
+        border: 2px solid white;
+        background: black;
+        color: white;
+
+    }
+
+    .main .articles {
+        width: 100%;
+        padding: 20px;
+        border: 2px solid white;
+        background: black;
+        color: white;
+    }
+
+    .main .der {
+        width: 300px;
+        padding: 20px;
+        border: 2px solid white;
+        background: black;
+        color: white;
+    }
+
+    /*footer*/
+
+    footer {
+        clear:both;
+        border: 2px solid white;
+        background: black;
+        color: white;
+        font-size: 10px;
+
+    }
+
+    footer div {
+        padding: 20px;
+        margin: 10px auto;
+    }
+
+    footer div h1, footer div h2, footer div h3, footer div h4, footer div h5, footer div h6, footer div p {
+        margin: 5px;
+    }
+</style>
+
+
+<!--head: aqui van metadatos de la pagina y otros-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GASTRITIS CORP</title> <!--Nombre de la ventana-->
+    <link rel="icon" type="image/png" href="https://files.catbox.moe/l1idlu.png" /> <!--icono de la ventana-->
+    <link rel="stylesheet" type="text/css" href="C:\Users\rar_miro\Desktop\estilo.css">
+</head>
+
+
+
+
+
+
+
+
+<!--cuerpo: aqui va la estructura de la pagina web-->
+
+<body>
+    <header> <!--header: separador para los motores de busqueda-->
+
+        <div class="wallpaper">
+
+            <div class="main_title">
+                <h2>NUEVA UNIVERSIDAD MAYOR DE GASTRITIS</h2>
+                <p>hola que tal soy sech</p>
+            </div>
+
+        </div>
+
+        <nav> <!--barra de navegacion-->
+            <ul>
+                <li>hola</li>
+                <li>como estas</li>
+                <li>yo bien</li>
+                <li>y tu</li>
+                <li>tambien</li>
+                <li>se acabo para mi</li>
+                <li>its over</li>
+            </ul>
+        </nav>
+
+    </header>
+
+
+
+
+
+
+
+
+
+
+
+    <img class="static_image" src="https://files.catbox.moe/b76rkr.png"> <!--imagen estatica de la pagina-->
+
+    <section class="main"> <!--section main: contenido principal para motores de busqueda-->
+        
+        <aside class="izq"> <!--contenido secundario que no es importante para el buscador, se usa para sidebars-->
+            <h3>simon ya lo estamos reviviendo</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam ullam quis exercitationem similique modi unde soluta, voluptate maxime autem aliquid adipisci placeat quos nihil delectus, fuga molestiae doloribus eos. A.</p>
+            
+        </aside>
+        
+        <section class="articles">
+
+            <article>
+                <h2>titulo dos</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos praesentium exercitationem consectetur ipsa aspernatur blanditiis quis nesciunt autem quae saepe veniam corporis fugit, laudantium harum at, in reiciendis? Esse, beatae!</p>
+            </article>
+            
+            <article>
+                <h2> FORMAMOS GENTE QUE NO TRABAJA</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis, animi mollitia perferendis itaque, dolor accusamus dolorem, suscipit sint est voluptas repellat quas cupiditate. Dolorem necessitatibus facere, ullam atque ab voluptatem!</p>
+            </article>
+
+            <article>
+                <h3>HIMNOS DEL GRUPO</h3>
+                <div class="gallery1">
+                    <ul>
+                        <li><img src="https://files.catbox.moe/ych1vx.gif"></li>
+                        <li><img src="https://files.catbox.moe/yjm968.jpg"></li>
+                        <li><img src="https://files.catbox.moe/b7wvz0.jpeg"></li>
+                        <li><img src="https://files.catbox.moe/fsz7qt.jpeg"></li>
+                        <li><img src="https://files.catbox.moe/l1idlu.png"></li>
+                        <li><img src="https://files.catbox.moe/e8uf68.png"></li>
+                        <li><iframe width="504" height="283" src="https://www.youtube.com/embed/AsmwNX4gQDE?si=kZxb4o3ytG1hElwa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></li>
+                    </ul>
+                </div>
+            </article>
+
+        </section>
+
+        <aside class="der"> <!--contenido secundario que no es importante para el buscador, se usa para sidebars-->
+            <h3>simon ya lo estamos reviviendo</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam ullam quis exercitationem similique modi unde soluta, voluptate maxime autem aliquid adipisci placeat quos nihil delectus, fuga molestiae doloribus eos. A.</p>
+            
+        </aside>
+        
+    </section>
+
+    <footer>
+        <div>
+            <p> (C) todos los derechos reservados 2008</p>
+            <h1> pene de negro</h1>
+            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis quaerat inventore deleniti vitae aspernatur omnis, commodi et sint ullam consequatur sit culpa pariatur hic est excepturi dolorem. Ad, cupiditate eaque.</p>
+        </div>
+    </footer>
+
+
+</body>

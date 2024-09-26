@@ -1,0 +1,149 @@
+
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin:0 ;
+    padding: 0;
+}
+
+body {
+    background: url('https://files.catbox.moe/tdfv0e.jpg');
+    
+}
+
+/*margen automatico para contenedores header, main y footer*/
+header, .main, footer {
+    width: 90%;
+    margin: 20px auto;
+    justify-content: center;
+}
+
+/*imagen de fondo de bloque header*/
+header {
+    background: url('https://files.catbox.moe/ga4m9t.jpg');
+    background-position-y: -100px;
+    background-position-x: center;
+}
+
+/*formato de wallpaper*/
+header .wallpaper {
+    padding: 0px;
+    height: 300px;
+}
+
+/*Titulo dentro del wallpaper*/
+
+header .wallpaper .main_title {
+    color: rgb(255, 255, 255);
+    padding: 80px;
+    font-size: 20px;
+
+    position: relative;
+    top: 100px;
+}
+
+/*barra de navegacion*/
+header nav {
+    background:grey;
+    overflow:hidden;
+    font-size: 20px;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    float:left;
+    padding: 10px 30px;
+}
+
+header nav ul li:hover {
+    background: lightgray;
+
+} 
+
+
+/*imagen estatica global*/
+
+.static_image {
+    width: 190px;
+    height: 210px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+
+/* organizacion general de elementos dentro de main*/
+
+.main {
+    display:flex;
+    column-gap: 20px;
+    justify-content: center;
+    font-size: 14px;
+}
+
+
+.main h1, .main h2, .main h3, .main h4, .main h5, .main h6, .main p {
+    margin: 10px auto;
+}
+
+/*formato: lista de galeria 1*/
+
+.gallery1 {
+    text-align: center;
+}
+
+.gallery1 li {
+    display: inline-block;
+}
+
+.gallery1 img {
+    width: 160px;
+}
+
+/* elementos individuales de articles/main */
+
+.main .izq {
+    width: 500px;
+    padding: 20px 20px;
+    border: 2px solid white;
+    background: black;
+    color: white;
+
+}
+
+.main .articles {
+    width: 100%;
+    padding: 20px;
+    border: 2px solid white;
+    background: black;
+    color: white;
+}
+
+.main .der {
+    width: 300px;
+    padding: 20px;
+    border: 2px solid white;
+    background: black;
+    color: white;
+}
+
+/*footer*/
+
+footer {
+    clear:both;
+    border: 2px solid white;
+    background: black;
+    color: white;
+    font-size: 10px;
+    
+}
+
+footer div {
+    padding: 20px;
+    margin: 10px auto;
+}
+
+footer div h1, footer div h2, footer div h3, footer div h4, footer div h5, footer div h6, footer div p {
+    margin: 5px;
+}
